@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Responsive Template</title>
+        <meta charset="UTF-8"/>
+        <meta name="" content=""/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="mobile.css" @media="only screen and (max-width: 600px)">
+        <link rel="stylesheet" href="tablet.css" @media="only screen and (min-width: 601px) and (max-width: 768px)">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,700&display=swap" rel="stylesheet">
+        <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css' integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'>
+    </head>
+    <body>  
+        <!-- header -->
+        <header class="flex-column">
+            <nav class="flex-row">
+                <div><p>Logo</p></div>
+                <div id="menu">
+                    <ul id="menuList" class="flex-row">
+                        <a href="#"><li>Home</li></a>
+                        <a href="#"><li>Products</li></a>
+                        <a href="#beforeFooter"><li>About</li></a>
+                        <a href="#"><li>Contact</li></a>
+                    </ul>
+                </div>
+            </nav>
+            <div id="descHeader" class="flex-column">
+                    <h1>Responsive Template</h1>
+                    <p>Learn flexbox easily</p>
+                    <button class="btn">I AM A BUTTON</button>
+            </div>
+        </header>
+        <!-- work and images -->
+        <div id="work" class="flex-column">
+            <div class="ourWork flex-column">
+                <h2>Some Of Our Work</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. <br> Commodi vel dignissimos repudiandae excepturi Commodi vel dignissimos repudiandae excepturi.</p>
+                <hr>
+            </div>
+            <div id="imgWork" class="flex-column">
+                <div class="flex-row first-row">
+                    <div class="imgOne images short"></div>
+                    <div class="imgTwo images long"></div>
+                </div>
+                <div class="flex-row second-row">
+                    <div class="imgThree images long"></div>
+                    <div class="imgFour images short"></div>
+                </div>
+            </div>
+        </div>
+        <!-- before footer -->
+        <div id="beforeFooter" class="flex-column">
+            <div class="flex-column features">
+                <h2>Features and Services</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. <br> Commodi vel dignissimos repudiandae excepturi.</p>
+                <hr>
+            </div>
+            <div class="flex-row withIcons"> 
+                <div class="flex-column">
+                    <i class="fas fa-camera-retro fa-2x iColor"></i>
+                    <h6>Photography</h6>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit adipisicing elit.</p>
+                </div>
+                <div class="flex-column">
+                    <i class="fas fa-cubes fa-2x iColor"></i>
+                    <h6>Web Development</h6>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit adipisicing elit. </p>
+                </div>
+                <div class="flex-column">
+                    <i class="far fa-newspaper fa-2x iColor"></i>
+                    <h6>Content Editing</h6>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit adipisicing elit.</p>
+                </div>
+            </div>
+            <div class="flex-column features">
+                <h2>Join Our Newsletter</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. <br> Commodi vel dignissimos repudiandae excepturi.</p>
+                <hr>
+            </div>
+            <form action="" method="GET">
+                <input id="Newsletter" type="email" name="email" placeholder="Email" value=""/>
+                <button class="btn">subscribe now</button>
+            </form>
+        </div>
+        <!-- footer -->
+        <footer class="flex-column">
+            <div id="social">
+                <a href="http://twitter.com" target="_blank"><i class="fab fa-twitter-square"></i></a>
+                <a href="http://facbook.com" target="_blank"><i class="fab fa-facebook-square "></i></a>
+                <a href="http://spapchat.com" target="_blank"><i class="fab fa-snapchat-square"></i></a>
+                <a href="http://pinterest.com" target="_blank"><i class="fab fa-pinterest-square"></i></a>
+                <a href="http://github.com" target="_blank"><i class="fab fa-github-square"></i></a>
+            </div>
+            <div>
+                <p>made by <span>a website.</span> images courtesy to <span>another website.</span></p>
+                <p>please don't google the code, try to do it your self.</p>
+            </div>
+        </footer>
+        
+
+
+
+
+
+
+    </body>       
+</html>

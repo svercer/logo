@@ -1,0 +1,195 @@
+body {
+    
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+.btn {
+    background-color: #4091e6;
+    color: white;
+    border: 0;
+    border-radius: 2px;
+    padding: 10px 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 0.7em;
+}
+.btn:hover {
+    cursor: pointer;
+}
+/* klasi univerzalni */
+header {
+    background-image: url('images/hero.jpg');
+    background-blend-mode: multiply;
+    opacity: 0.8;
+    background-color: rgba(100, 100, 100, 0.8);
+    background-size: cover;
+    color: white;
+    height: 100vh;
+    max-height: 100%;
+    width: 100vw;
+    max-width: 100%;
+}
+nav {
+    justify-content: space-between;
+    margin: 0 3%;
+}
+#descHeader {
+    justify-content: center;
+    align-items: center;
+    flex-grow: 2;
+}
+#menuList > a {
+    color: white;
+    text-decoration: none;
+    list-style-type: none;
+    margin: 0 5px;
+}
+header > div > h1 {
+    margin-bottom: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav > div > p {
+    font-weight: bold;
+}
+/* header finished */
+.ourWork {
+    justify-content: center;
+    align-items: center;
+    margin: 5% auto;
+    color: black;
+}
+.ourWork > h2 {
+    font-size: 1em;
+    text-align: center;
+}
+.ourWork > p {
+    font-size: 0.7em;
+    text-align: center;
+}
+.ourWork > hr {
+    width: 100px;
+    border-bottom: 1px solid #4091e6;
+}
+/* work desc finished */
+
+#imgWork {
+    width: 90vw;
+    margin: 0 auto;
+}
+.images {
+    height: 150px;
+    background-position: center;
+    margin: 5px;
+    background-size: cover;
+}
+.short {
+    flex-grow: 4;
+}
+.long {
+    flex-grow: 6;
+}
+.imgOne{
+    background-image: url('images/coast.jpg');
+} 
+.imgTwo {
+    background-image: url('images/island.jpg');
+}
+.imgThree {
+    background-image: url('images/balloon.jpg');
+}
+.imgFour {
+    background-image: url('images/mountain.jpg');
+}
+/* images finished */
+#beforeFooter {
+    margin-top: 5%;
+    background-color: #f7f7f7;
+    padding: 5% 0;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100vh;
+    opacity: 0.7;
+}
+
+.features {
+    
+    justify-content: center;
+    align-items: center;
+    color: #525452;
+}
+.features > h2 {
+    font-size: 1em;
+    
+}
+.features > p {
+    font-size: 0.7em;
+    text-align: center;
+}
+.features > hr {
+    width: 100px;
+    border-bottom: 1px solid #4091e6;
+}
+/* middle flex icons*/
+.withIcons > div  {
+    justify-content: space-between;
+    align-items: center;
+    flex-basis: 30%;
+}
+.withIcons > div > p {
+    text-align: center;
+    font-size: 0.7em;
+}
+.withIcons {
+    align-items: center;
+    justify-content: space-evenly;
+}
+.iColor {
+    color: #4091e6;
+}
+/* done */
+#Newsletter {
+    border-radius: 2px;
+    padding: 6px 15px;
+    border: 1px solid #4091e6;
+    margin: 2px; 
+    width: 40%;
+}
+form {
+    width: 30%;
+    text-align: center;
+}
+/* Before footer finished */
+footer {
+    justify-content: center;
+    align-items: center;
+    background-color: #414a4f;
+    color: white;
+    height: 30vh;
+    border-bottom: 1px solid white;
+}
+footer span {
+    font-weight: bold;
+}
+footer  p {
+    font-size: 0.6em;
+    text-transform: uppercase;
+    text-align: center; 
+    width: 100%;
+    margin: 5% auto;
+
+}
+footer i {
+    color: white;
+    margin: 5px;
+    display: inline;
+    font-size: 20px;
+}
+/* final */

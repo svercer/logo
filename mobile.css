@@ -1,0 +1,35 @@
+@media only screen and (max-width: 600px) {
+    h1 {
+        text-align: center;
+        margin: 0 5%;
+    }
+    nav.flex-row {
+        flex-direction: column;
+        justify-content: flex-start ;
+        align-items: center;
+    }
+    nav p {
+       text-align: center;
+       font-size: 2em;
+    }
+    #menuList {
+        padding-left: 0;
+        font-weight: bold;
+        width: 100vw;
+        max-width: 100%;
+        justify-content: space-around;
+    }
+    #imgWork .images {
+        height: 400px;
+    }
+    
+   
+
+    
+
+
+
+
+
+/* final border */
+};
